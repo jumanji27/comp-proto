@@ -4,8 +4,10 @@ Install Go (1.4.2) and prepare default GOPATH/GOROOT env variable
 
 Install Node (0.12.7)
 
-    cd server && go get github.com/go-martini/martini && go get github.com/martini-contrib/render
-    cd client/builder && npm install && bower install && npm install -g gulp
+##### Install Deps
+
+    sudo cp -r server/vend ~/go/src
+    cd client/builder && npm install && sudo npm install -g gulp@3.9.0 bower@1.6.5 && bower install
 
 ##### Build and run
 
