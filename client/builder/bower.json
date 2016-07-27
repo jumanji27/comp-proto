@@ -1,0 +1,11 @@
+{
+  "name": "lazada-components-prototype-support",
+  "description": "Lazada Components Prototype",
+  "dependencies": {
+    "underscore": "1.7.0",
+    "backbone": "1.0.0",
+    "jquery": "2.0.3",
+    "jade": "1.11.0"
+  },
+  "devDependencies": {}
+}
