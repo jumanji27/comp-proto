@@ -14,7 +14,7 @@ Install Node (0.12.7)
     go build -o server/comp_proto server/comp_proto.go && MARTINI_ENV=production server/comp_proto
     cd client/builder && gulp build
 
-##### Run Dev Server
+##### Run dev server
 
     go run server/comp_proto.go
     cd client/builder && gulp run
